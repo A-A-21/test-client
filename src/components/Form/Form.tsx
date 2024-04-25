@@ -14,7 +14,7 @@ const Form = () => {
 			uuid: `${Math.ceil(Math.random() * 1000)}-my-super-uuid`,
 			title: inputValue,
 		};
-		const res = await fetch('http://localhost:8080/todo', {
+		const res = await fetch('http://31.129.49.56:8080/todo', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',

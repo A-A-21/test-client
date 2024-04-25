@@ -15,7 +15,7 @@ const List = () => {
 		// 	const todos = JSON.parse(storageData);
 		// 	dispatch({ type: TypeEnum.fillTodos, payload: todos });
 		// } else {
-		fetch('http://localhost:8080/todos')
+		fetch('http://31.129.49.56:8080/todos')
 			.then(res => res.json())
 			.then(data => {
 				dispatch({ type: TypeEnum.fillTodos, payload: data });
