@@ -6,7 +6,7 @@ const List = () => {
   const [todos, setTodos] = useState<TypeTodo[]>([]);
 
   useEffect(() => {
-    fetch("http://31.129.49.56:8080/todos")
+    fetch("http://92.255.67.65:8080/todos")
       .then((res) => res.json())
       .then((data) => {
         setTodos(data);

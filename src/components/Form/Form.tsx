@@ -10,7 +10,7 @@ const Form = () => {
       uuid: `${Math.ceil(Math.random() * 1000)}-my-super-uuid`,
       title: inputValue,
     };
-    await fetch("http://31.129.49.56:8080/todo", {
+    await fetch("http://92.255.67.65:8080/todo", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
